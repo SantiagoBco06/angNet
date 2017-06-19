@@ -16,3 +16,12 @@ D:\Dev\Server\WhiteGit\obj\Debug\netcoreapp1.1\White.csprojResolveAssemblyRefere
 D:\Dev\Server\WhiteGit\obj\Debug\netcoreapp1.1\White.AssemblyInfo.cs
 D:\Dev\Server\WhiteGit\obj\Debug\netcoreapp1.1\White.dll
 D:\Dev\Server\WhiteGit\obj\Debug\netcoreapp1.1\White.pdb
+D:\Dev\Server\WhiteGit\angNet\bin\Debug\netcoreapp1.1\White.deps.json
+D:\Dev\Server\WhiteGit\angNet\bin\Debug\netcoreapp1.1\White.runtimeconfig.json
+D:\Dev\Server\WhiteGit\angNet\bin\Debug\netcoreapp1.1\White.runtimeconfig.dev.json
+D:\Dev\Server\WhiteGit\angNet\bin\Debug\netcoreapp1.1\White.dll
+D:\Dev\Server\WhiteGit\angNet\bin\Debug\netcoreapp1.1\White.pdb
+D:\Dev\Server\WhiteGit\angNet\obj\Debug\netcoreapp1.1\White.csprojResolveAssemblyReference.cache
+D:\Dev\Server\WhiteGit\angNet\obj\Debug\netcoreapp1.1\White.AssemblyInfo.cs
+D:\Dev\Server\WhiteGit\angNet\obj\Debug\netcoreapp1.1\White.dll
+D:\Dev\Server\WhiteGit\angNet\obj\Debug\netcoreapp1.1\White.pdb

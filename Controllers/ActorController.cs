@@ -32,12 +32,13 @@ namespace White.Controllers
         [HttpGet("[action]")]
         public IEnumerable<Customer> ListCustomer()
         {
-            Console.WriteLine(" Inicializando busqueda... ");
-            IEnumerable<Customer> customers = _context.Customers;
 
             Console.WriteLine(" Initializing Search ListCustomers... ");
-            IEnumerable<Address> addresses = _context.Addresses;
-            
+            IEnumerable<Address> addresses =  _context.Addresses.ToList<Address>();
+
+            Console.WriteLine(" Inicializando busqueda... ");
+            IEnumerable<Customer> customers = _context.Customers.ToList<Customer>();
+
             return customers;
         }
 

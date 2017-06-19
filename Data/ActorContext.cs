@@ -15,13 +15,13 @@ namespace White.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Actor>().ToTable("actor");
+            modelBuilder.Entity<Actor>().ToTable<Actor>("actor");
             modelBuilder.Entity<Actor>().HasKey(x => x.actor_id);
         
-            modelBuilder.Entity<Customer>().ToTable("customer");
+            modelBuilder.Entity<Customer>().ToTable<Customer>("customer");
             modelBuilder.Entity<Customer>().HasKey(x => x.customer_id);
 
-            modelBuilder.Entity<Address>().ToTable("address");
+            modelBuilder.Entity<Address>().ToTable<Address>("address");
             modelBuilder.Entity<Address>().HasKey( x => x.address_id);
             
 

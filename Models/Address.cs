@@ -20,8 +20,8 @@ namespace White.Models
 
         public DateTime last_update { get; set; }
 
-        [InverseProperty("address")]
-        public Customer customer { get; set; }
+        //[InverseProperty("address")]
+        //public Customer customer { get; set; }
 
     }
 }

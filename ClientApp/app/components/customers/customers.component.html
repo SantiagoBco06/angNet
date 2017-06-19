@@ -1,6 +1,6 @@
-﻿<h1>List of Actors</h1>
+﻿<h1>List of Customers</h1>
 
-<p>List of the Actors in this course.</p>
+<p>List of the Customer in this course.</p>
 
 <p *ngIf="!customers"><em>Loading...</em></p>
 
@@ -12,6 +12,9 @@
             <th>Last Name</th>
             <th>E-mail</th>
             <th>Last Update</th>
+            <th>Address</th>
+            <th>Address 2</th>
+            <th>Phone</th>
         </tr>
     </thead>
     <tbody>
@@ -21,6 +24,9 @@
             <td>{{ customer.last_name }}</td>
             <td>{{ customer.email }}</td>
             <td>{{ customer.last_update }}</td>
+            <td>{{ customer.address.address }}</td>
+            <td>{{ customer.address.address2 }}</td>
+            <td>{{ customer.address.phone }}</td>
         </tr>
     </tbody>
 </table>

@@ -1,4 +1,4 @@
-﻿import { Component, Inject, OnInit, AfterContentInit } from '@angular/core';
+﻿import { Component, Inject} from '@angular/core';
 
 import { Http } from '@angular/http';
 
@@ -17,17 +17,7 @@ export class CustomersComponent {
         });
 
     }
-
-    ngOnInit() {
-        console.log('############################# ngOnInit');
-        console.log(this.customers);
-    }
-
-    ngAfterContentInit() {
-        console.log('############################# ngAfterContentInit');
-        console.log(this.customers);
-
-    }
+    
 
 }
 
@@ -44,5 +34,5 @@ interface Address {
     address_id: number;
     address: string;
     address2: string;
-    email: string;
+    phone: string;
 }
